@@ -1,0 +1,1 @@
+# sectors_ticker_pdf_generator
