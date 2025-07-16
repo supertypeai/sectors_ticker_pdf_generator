@@ -1,0 +1,129 @@
+{
+  "sectors": {
+    "Technology": {
+      "description": "Companies involved in the design, development, and support of computer-based hardware and software solutions",
+      "key_metrics": ["Revenue Growth", "R&D Spending", "Market Share", "Innovation Index"],
+      "subcategories": ["Software", "Hardware", "Semiconductors", "IT Services", "Cloud Computing"],
+      "typical_companies": ["AAPL", "MSFT", "GOOGL", "META", "NVDA"],
+      "risk_factors": ["Rapid technological change", "Competition", "Regulatory changes", "Cybersecurity threats"],
+      "color_scheme": "#2C5282"
+    },
+    "Healthcare": {
+      "description": "Companies providing medical services, manufacturing medical equipment, or developing pharmaceuticals",
+      "key_metrics": ["Drug Pipeline", "FDA Approvals", "Market Access", "R&D Investment"],
+      "subcategories": ["Pharmaceuticals", "Biotechnology", "Medical Devices", "Healthcare Services"],
+      "typical_companies": ["JNJ", "PFE", "UNH", "ABBV", "TMO"],
+      "risk_factors": ["Regulatory approval risks", "Patent cliffs", "Pricing pressures", "Clinical trial failures"],
+      "color_scheme": "#38A169"
+    },
+    "Financial": {
+      "description": "Companies providing financial services including banking, insurance, and investment management",
+      "key_metrics": ["Net Interest Margin", "Return on Equity", "Loan Loss Provisions", "Capital Ratios"],
+      "subcategories": ["Banks", "Insurance", "Investment Services", "Real Estate", "Fintech"],
+      "typical_companies": ["JPM", "BAC", "WFC", "BRK.B", "V"],
+      "risk_factors": ["Interest rate changes", "Credit risks", "Regulatory changes", "Economic cycles"],
+      "color_scheme": "#D69E2E"
+    },
+    "Energy": {
+      "description": "Companies involved in the exploration, production, refining, and distribution of oil, gas, and renewable energy",
+      "key_metrics": ["Oil/Gas Reserves", "Production Costs", "Refining Margins", "ESG Metrics"],
+      "subcategories": ["Oil & Gas", "Renewable Energy", "Utilities", "Pipeline Companies"],
+      "typical_companies": ["XOM", "CVX", "COP", "SLB", "KMI"],
+      "risk_factors": ["Commodity price volatility", "Environmental regulations", "Geopolitical risks", "Energy transition"],
+      "color_scheme": "#E53E3E"
+    },
+    "Consumer Discretionary": {
+      "description": "Companies selling non-essential goods and services that consumers may buy when they have excess income",
+      "key_metrics": ["Same-Store Sales", "Consumer Sentiment", "Market Share", "Brand Value"],
+      "subcategories": ["Retail", "Automotive", "Hotels & Restaurants", "Media & Entertainment"],
+      "typical_companies": ["AMZN", "TSLA", "HD", "MCD", "NKE"],
+      "risk_factors": ["Economic cycles", "Consumer spending patterns", "Competition", "Supply chain disruptions"],
+      "color_scheme": "#9F7AEA"
+    },
+    "Consumer Staples": {
+      "description": "Companies that sell essential products such as food, beverages, household items, and personal care products",
+      "key_metrics": ["Market Share", "Brand Loyalty", "Distribution Network", "Cost Management"],
+      "subcategories": ["Food & Beverages", "Personal Care", "Household Products", "Tobacco"],
+      "typical_companies": ["PG", "KO", "PEP", "WMT", "COST"],
+      "risk_factors": ["Raw material costs", "Currency fluctuations", "Health trends", "Private label competition"],
+      "color_scheme": "#48BB78"
+    },
+    "Industrials": {
+      "description": "Companies involved in construction, manufacturing, and distribution of goods, as well as providing commercial services",
+      "key_metrics": ["Order Backlog", "Capacity Utilization", "Operating Leverage", "Capital Efficiency"],
+      "subcategories": ["Aerospace & Defense", "Construction", "Transportation", "Industrial Machinery"],
+      "typical_companies": ["BA", "CAT", "GE", "UPS", "HON"],
+      "risk_factors": ["Economic cycles", "Raw material costs", "Labor costs", "Global trade tensions"],
+      "color_scheme": "#4A5568"
+    },
+    "Materials": {
+      "description": "Companies involved in the discovery, development, and processing of raw materials",
+      "key_metrics": ["Commodity Prices", "Production Costs", "Capacity Utilization", "Environmental Compliance"],
+      "subcategories": ["Chemicals", "Metals & Mining", "Paper & Packaging", "Construction Materials"],
+      "typical_companies": ["LIN", "SHW", "FCX", "NEM", "DD"],
+      "risk_factors": ["Commodity price volatility", "Environmental regulations", "Global demand", "Currency fluctuations"],
+      "color_scheme": "#8B4513"
+    },
+    "Utilities": {
+      "description": "Companies providing essential services such as electricity, gas, and water",
+      "key_metrics": ["Rate Base Growth", "Regulatory Environment", "Dividend Yield", "ESG Metrics"],
+      "subcategories": ["Electric Utilities", "Gas Utilities", "Water Utilities", "Renewable Energy"],
+      "typical_companies": ["NEE", "SO", "DUK", "AEP", "EXC"],
+      "risk_factors": ["Regulatory changes", "Environmental regulations", "Interest rate sensitivity", "Weather patterns"],
+      "color_scheme": "#2D3748"
+    },
+    "Real Estate": {
+      "description": "Companies that own, operate, develop, or finance income-producing real estate",
+      "key_metrics": ["Occupancy Rates", "Net Operating Income", "Funds From Operations", "Debt-to-Equity"],
+      "subcategories": ["REITs", "Real Estate Development", "Real Estate Services"],
+      "typical_companies": ["AMT", "PLD", "CCI", "EQIX", "SPG"],
+      "risk_factors": ["Interest rate changes", "Property values", "Economic cycles", "Regulatory changes"],
+      "color_scheme": "#805AD5"
+    },
+    "Communication Services": {
+      "description": "Companies providing communication services and content through various media and platforms",
+      "key_metrics": ["Subscriber Growth", "ARPU", "Content Costs", "Market Share"],
+      "subcategories": ["Telecommunications", "Media & Entertainment", "Interactive Media"],
+      "typical_companies": ["GOOGL", "META", "NFLX", "DIS", "VZ"],
+      "risk_factors": ["Technology disruption", "Content costs", "Regulatory changes", "Competition"],
+      "color_scheme": "#3182CE"
+    }
+  },
+  "market_indices": {
+    "S&P 500": {
+      "symbol": "SPX",
+      "description": "Standard & Poor's 500 Index"
+    },
+    "NASDAQ": {
+      "symbol": "IXIC",
+      "description": "NASDAQ Composite Index"
+    },
+    "Dow Jones": {
+      "symbol": "DJI",
+      "description": "Dow Jones Industrial Average"
+    }
+  },
+  "analysis_frameworks": {
+    "fundamental": [
+      "Revenue Growth Analysis",
+      "Profitability Metrics",
+      "Financial Health Assessment",
+      "Valuation Analysis",
+      "Competitive Position"
+    ],
+    "technical": [
+      "Price Trend Analysis",
+      "Support/Resistance Levels",
+      "Volume Analysis",
+      "Moving Averages",
+      "Momentum Indicators"
+    ],
+    "esg": [
+      "Environmental Impact",
+      "Social Responsibility",
+      "Governance Quality",
+      "Sustainability Metrics",
+      "Risk Management"
+    ]
+  }
+}
